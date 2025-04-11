@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Designify.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Onest:wght@100..900&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-black: #030303;
+        --color-true-black: #000000;
+        --color-dark-gray: #1a1a1a;
+        --color-light-gray: #d9d9d9;
+        --color-light-gray-alt: #e1e1e1;
+        --color-very-light-gray: #f0f0f0;
+        --color-white: #ffffff;
+        --color-light-orange: #ff9162;
+        --color-light-orange-alt: #ffa362;
+        --color-dark-orange: #f77129;
+        --color-green: #53b483;
+        --color-dark-brown: #160e01;
+        --color-dark-blue-black: #040116;
+
+        --font-archivo: "Archivo", sans-serif;
+        --font-dm-sans: "DM Sans", sans-serif;
+        --font-geist: "Geist", sans-serif;
+        --font-geist-mono: "Geist Mono", monospace;
+        --font-instrument-sans: "Instrument Sans", sans-serif;
+        --font-inter: "Inter", sans-serif;
+        --font-onest: "Onest", sans-serif;
+        --font-orbitron: "Orbitron", sans-serif;
+      }
+    </style>
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Designify</title>
+  </head>
+  <body class="bg-black min-h-screen overflow-x-hidden relative">
+    <div class="backgroundImage min-h-screen w-full opacity-10"></div>
+    <img
+      src="/ellipseTop.png"
+      alt="ellipseTop"
+      class="absolute md:top-[-45%] md:right-[-30%] sm:top-[-30%] sm:right-[-20%] top-[-10%] right-[-20%] pointer-events-none z-0"
+    />
+    <div
+      class="absolute md:top-[-15%] md:right-[-15%] sm:top-[-10%] sm:right-[-10%] top-[-5%] right-[-5%] bg-linear-to-b from-black to-black-0 linearGradientEllipse rotate-[17.51deg] h-1/2 w-[80%]"
+    ></div>
+
+    <div class="absolute top-0 left-0 w-full z-5 md:py-10 py-5 md:px-20 px-10">
+      <nav class="navbar flex items-center justify-between">
+        <div class="logo flex items-center gap-2">
+          <img src="Designify.svg" alt="Designify" />
+          <span class="font-orbitron text-white">Designify</span>
+        </div>
+
+        <div class="navLinks text-white/60 font-inter hidden md:flex">
+          <ul class="flex items-center gap-4">
+            <li>Releases</li>
+            <li>Resources</li>
+            <li>Company</li>
+            <li>Pricing</li>
+          </ul>
+        </div>
+
+        <button
+          class="bg-linear-to-b from-light-gray-alt to-light-orange-alt to-150% p-2 px-4 rounded-[10.24px] box-border font-orbitron font-bold border-black/21 border-2 hidden sm:block"
+        >
+          Contact Us
+        </button>
+      </nav>
+
+      <img
+        src="/skyglow.png"
+        alt="skyglow"
+        class="absolute md:top-[-30%] md:left-[-30%] sm:top-[-23%] sm:left-[-25%] top-[-15%] left-[-20%] pointer-events-none"
+      />
+
+      <div class="z-100 text-white mt-[150px]">
+        <div
+          class="p-2 border border-white/20 flex w-fit rounded-full flex items-center gap-2"
+        >
+          <img src="/Avatar group.png" alt="Avatar" />
+          <span class="font-onest text-very-light-gray/60 md:text-sm text-xs"
+            >Over 1k happy customers</span
+          >
+        </div>
+        <h1
+          class="capitalize md:text-6xl sm:text-5xl text-3xl font-orbitron font-bold bg-gradient-to-br from-light-gray-alt from-40% to-dark-orange bg-clip-text text-transparent filter drop-shadow-[0_-2px_0_white] sm:drop-shadow-[0_-1px_0_white] mt-4"
+        >
+          Shape your <br />
+          decentralized future.
+        </h1>
+
+        <p class="mt-4 md:text-xl sm:text-lg text-white/50 font-onest">
+          Unlock the power of decentralization with seamless innovation and
+          control.
+        </p>
+
+        <button
+          class="bg-linear-to-tl from-dark-orange to-light-orange-alt p-3 px-5 text-black mt-4 relative rounded-[10.24px] box-border font-orbitron font-bold border-white/29 border-2 shadow-xl shadow-light-orange-alt/70"
+        >
+          Get Started For Free
+
+          <img
+            src="/buttonGlow.png"
+            alt=" buttonGlow"
+            class="absolute top-[30%] left-[50%] -translate-x-1/2"
+          />
+        </button>
+      </div>
+
+      <img
+        src="/githubImage.png"
+        alt="githubImage"
+        class="mx-auto mt-[100px] shadow-2xl shadow-light-orange-alt/50 rounded-2xl"
+      />
+
+      <!-- create more sections -->
+
+      <!-- do not create more section after below closing tag -->
+    </div>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
