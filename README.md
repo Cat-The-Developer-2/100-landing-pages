@@ -87,3 +87,4 @@ Built by [Aditya Chaurasia @CNinja22936](https://twitter.com/CNinja22936)
 | Landing Page | Designer | Social Link                                       |
 | ------------ | -------- | ------------------------------------------------- |
 | Designify    | Waleed   | [@WithWaleedSabir](https://x.com/WithWaleedSabir) |
+| Acme    | Waleed   | [@WithWaleedSabir](https://x.com/WithWaleedSabir) |
